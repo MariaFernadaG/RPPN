@@ -1,0 +1,171 @@
+/* geral */
+body{
+    margin-bottom: 0px;
+}
+  
+  .header {
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 40px;
+   
+ 
+  
+  }
+
+
+main {
+    margin: 40px; /* Adicione a margem desejada */
+  }
+  
+  .legend-title {
+    color: #148C3C; /* Definindo a cor desejada */
+  }
+  /*menu*/
+/* Cor do hover */
+.dropdown-item:hover {
+  background-color:#8CC342; 
+  color: #ffffff; 
+}
+.dropdown .fas {
+  font-size: 24px; /* tamanho icone menu */
+}
+/* Cor do clique */
+.dropdown-item:active,
+.dropdown-item:focus {
+  background-color:  #148C3C;
+  color: #ffffff;
+}
+
+
+
+   /*index*/
+  .logo {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporção 16:9: 9/16 * 100 = 56.25% */
+    overflow: hidden;
+  }
+ 
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .lead{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  /*rodapé*/
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .text-container {
+    margin-top: 10px; /* Espaçamento entre o texto e o logo (opcional) */
+  }
+  .footer {
+    padding-top: 90px; /* Ajuste a altura conforme necessário */
+  }
+  
+  .social-media {
+    margin-bottom: 30px; /* Ajuste a altura conforme necessário */
+  }
+  
+  .social-media-list {
+    margin-bottom: 0; /* Remover a margem inferior para a lista */
+  }
+  
+  .footer {
+    background-color: #148C3C;
+    color: white;
+    padding: 50px;/*mudar quando colocra logo*/
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer .list-inline {
+    display: flex;
+    gap: 10px; /* Espaço entre os ícones */
+}
+
+.footer .list-inline-item a {
+    color: white;
+}
+
+
+.footer-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+/*pagina3 titulo h1*/
+/*card-quadradinhos com informacoes*/
+.card-container {
+  display: flex;
+  justify-content: space-between; 
+}
+.card-title{
+  color: #148C3C;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 40px;
+  color: #148C3C; 
+}
+
+.featurette-heading{
+  color: #148C3C; 
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.titulop3{
+color:#8CC342;
+text-align: center;
+ 
+}
